@@ -24,7 +24,7 @@ const BlogPosts = (props) => {
     });
 
   const updateBlogs = async () => {
-    let url = `http://localhost:3001/blogData?q=${value}&_page=${page}&_limit=${props.limit}&_sort=${sortValue}&_order=${sortType}`;
+    let url = `http://localhost:3001/blogData?q=${value}&_page=${page}&_limit=${props.limit}&_sort=${sortValue}&_order=${sortType}&${props.category!=null?(`thumbnail_text=${props.category}`):''}`;
     setLoading(true);
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -43,7 +43,6 @@ const BlogPosts = (props) => {
     if (value !== "") {
       setPage(1);
       let url = `http://localhost:3001/blogData?q=${value}&_limit=${props.limit}&_sort=${sortValue}&_order=${sortType}`;
-      alert(url);
       setLoading(true);
       let data = await fetch(url);
       let parsedData = await data.json();
@@ -85,7 +84,7 @@ const BlogPosts = (props) => {
   const fetchMoreData = async () => {
     let url = `http://localhost:3001/blogData?q=${value}&_page=${
       page + 1
-    }&_limit=${props.limit}&_sort=${sortValue}&_order=${sortType}`;
+    }&_limit=${props.limit}&_sort=${sortValue}&_order=${sortType}&${props.category!=null?(`thumbnail_text=${props.category}`):''}`;
     setPage(page + 1);
     setLoading(true);
     let data = await fetch(url);

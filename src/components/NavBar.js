@@ -14,15 +14,13 @@ const NavBar = (props) => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link className="nav-link" aria-current="page" to="/">BlogPost</Link>
+                                    <Link className="nav-link" aria-current="page" to="/">General Blog</Link>
                                 </li>
-                                {/* <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/general">General</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li> */}
+                                <li className="nav-item"><Link className="nav-link" to="/Literacture">Literacture</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/Cricket">Cricket</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/Politics">Politics</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/Health">Health</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/Technology">Technology</Link></li>
                             </ul>
                             <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
                         <input className="form-check-input" onClick={props.changeMode} type="checkbox" id="flexSwitchCheckDefault"/>

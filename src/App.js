@@ -27,7 +27,12 @@ const App=()=> {
     <Router>
     <NavBar mode={mode} changeMode={changeMode} />
         <Switch>
-        <Route exact path="/"><BlogPosts mode={mode} limit={limit}/></Route> 
+        <Route exact path="/"><BlogPosts mode={mode} key="general" limit={limit}/></Route> 
+        <Route exact path="/Literacture"><BlogPosts mode={mode} key="Literacture" limit={limit} category="Literacture"/></Route> 
+        <Route exact path="/Cricket"><BlogPosts mode={mode} key="Cricket" limit={limit} category="Cricket"/></Route> 
+        <Route exact path="/Politics"><BlogPosts mode={mode} key="Politics" limit={limit} category="Politics"/></Route>
+        <Route exact path="/Health"><BlogPosts mode={mode} key="Health" limit={limit} category="Health"/></Route>
+        <Route exact path="/Technology"><BlogPosts mode={mode} key="Technology" limit={limit} category="Technology"/></Route>
            </Switch>
         </Router>
     </div>
