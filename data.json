@@ -1,0 +1,431 @@
+  {
+  "blogData": [
+    {
+      "id": "user-1",
+
+      "author_name": "John Adams",
+      "author_avatar": "https://i.pravatar.cc/70?img=1",
+      "blogtitle":"A What's New In 2022 Tech",
+
+      "description": "Party images from New Jersey-1",
+
+      "asset_type": "image",
+
+      "thumbnail_text": "Technology",
+
+      "created_at": "Breated 3 days ago",
+
+      "updated_at": "", 
+      "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+    },
+    {
+        "id": "user-2",
+  
+        "author_name": "Bill Gates",
+        "author_avatar": "https://i.pravatar.cc/70?img=2",
+        "blogtitle":"What's New In 2023 Tech",
+        "description": "Party images from New Jersey-2",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Health",
+  
+        "created_at": "Created 5 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-3",
+  
+        "author_name": "Rom Adams",
+        "author_avatar": "https://i.pravatar.cc/70?img=3",
+        "blogtitle":"S What's New In 2024 Tech",
+        "description": "Party images from New Jersey-3",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Technology",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-4",
+  
+        "author_name": "John Adams",
+        "author_avatar": "https://i.pravatar.cc/70?img=4",
+        "blogtitle":"D What's New in Computer in 2022 Tech",
+        "description": "Party images from New Jersey-4",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Cricket",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-5",
+  
+        "author_name": "Rom Adams",
+        "author_avatar": "https://i.pravatar.cc/70?img=5",
+        "blogtitle":"H What's New in health in 2023 Tech",
+        "description": "Party images from New Jersey-5",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Cricket",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-6",
+  
+        "author_name": "Rom Flips",
+        "author_avatar": "https://i.pravatar.cc/70?img=1",
+        "blogtitle":"What's New in Computer in 2024 Tech",
+        "description": "Party images from New Jersey-6",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Politics",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-7",
+  
+        "author_name": "John Adams",
+        "author_avatar": "https://i.pravatar.cc/70?img=4",
+        "blogtitle":"What's New in Computer in 2022 Tech",
+        "description": "Party images from New Jersey-7",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Cricket",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-8",
+  
+        "author_name": "Rom Adams",
+        "author_avatar": "https://i.pravatar.cc/70?img=5",
+        "blogtitle":"What's New in health in 2023 Tech",
+        "description": "Party images from New Jersey-8",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Cricket",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-9",
+  
+        "author_name": "Rom Flips",
+        "author_avatar": "https://i.pravatar.cc/70?img=1",
+        "blogtitle":"What's New in Computer in 2024 Tech",
+        "description": "Party images from New Jersey-9",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Politics",
+  
+        "created_at": "Created 7 days ago",
+  
+        "updated_at": "",
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+        "id": "user-10",
+  
+        "author_name": "John Adams",
+        "author_avatar": "https://i.pravatar.cc/70?img=1",
+        "blogtitle":"What's New In 2022 Tech",
+  
+        "description": "Party images from New Jersey-10",
+  
+        "asset_type": "image",
+  
+        "thumbnail_text": "Technology",
+  
+        "created_at": "Created 3 days ago",
+  
+        "updated_at": "", 
+        "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+      },
+      {
+          "id": "user-11",
+    
+          "author_name": "Bill Gates",
+          "author_avatar": "https://i.pravatar.cc/70?img=2",
+          "blogtitle":"Z What's New In 2023 Tech",
+          "description": "Party images from New Jersey-11",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Health",
+    
+          "created_at": "Created 5 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-12",
+    
+          "author_name": "Rom Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=3",
+          "blogtitle":"What's New In 2024 Tech",
+          "description": "Party images from New Jersey-12",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Technology",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-13",
+    
+          "author_name": "John Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=4",
+          "blogtitle":"What's New in Computer in 2022 Tech",
+          "description": "Party images from New Jersey-13",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-14",
+    
+          "author_name": "Rom Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=5",
+          "blogtitle":"What's New in health in 2023 Tech",
+          "description": "Party images from New Jersey-14",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-15",
+    
+          "author_name": "Rom Flips",
+          "author_avatar": "https://i.pravatar.cc/70?img=1",
+          "blogtitle":"What's New in Computer in 2024 Tech",
+          "description": "Party images from New Jersey-15",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Politics",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-16",
+    
+          "author_name": "John Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=4",
+          "blogtitle":"What's New in Computer in 2022 Tech",
+          "description": "Party images from New Jersey-16",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-17",
+    
+          "author_name": "Rom Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=5",
+          "blogtitle":"What's New in health in 2023 Tech",
+          "description": "Party images from New Jersey-17",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-18",
+    
+          "author_name": "Rom Flips",
+          "author_avatar": "https://i.pravatar.cc/70?img=1",
+          "blogtitle":"What's New in Computer in 2024 Tech",
+          "description": "Party images from New Jersey-18",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Politics",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-19",
+    
+          "author_name": "Ankit Kumar",
+          "author_avatar": "https://i.pravatar.cc/70?img=3",
+          "blogtitle":"New In 2024 Tech",
+          "description": "Party images from New Jersey-19",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Industry",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-20",
+    
+          "author_name": "Rohan Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=5",
+          "blogtitle":"What's New in Computer in 2022 Tech",
+          "description": "Party images from New Jersey-20",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-21",
+    
+          "author_name": "Adam Bill",
+          "author_avatar": "https://i.pravatar.cc/70?img=5",
+          "blogtitle":"Health in 2023 Tech",
+          "description": "Party images from New Jersey-21",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Politics",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-22",
+    
+          "author_name": "Ram Singh",
+          "author_avatar": "https://i.pravatar.cc/70?img=1",
+          "blogtitle":"Computer in 2024 Tech",
+          "description": "Party images from New Jersey-22",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Literacture",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-23",
+    
+          "author_name": "Maxx Lin",
+          "author_avatar": "https://i.pravatar.cc/70?img=4",
+          "blogtitle":"New in Computer in 2022 Tech",
+          "description": "Party images from New Jersey-23",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-24",
+    
+          "author_name": "Rom Adams",
+          "author_avatar": "https://i.pravatar.cc/70?img=5",
+          "blogtitle":"What's New in health in 2023 Tech",
+          "description": "Party images from New Jersey-24",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Cricket",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        },
+        {
+          "id": "user-25",
+    
+          "author_name": "Amit Kumar",
+          "author_avatar": "https://i.pravatar.cc/70?img=7",
+          "blogtitle":"What's New in Computer in 2024 Tech",
+          "description": "Party images from New Jersey-25",
+    
+          "asset_type": "image",
+    
+          "thumbnail_text": "Politics",
+    
+          "created_at": "Created 7 days ago",
+    
+          "updated_at": "",
+          "image_url": "https://tx-resources.s3.us-east-2.amazonaws.com/sample-image.jpg"
+        }
+  ]
+}

@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import BlogPosts from './components/BlogPosts';
+import React ,{ useState }from 'react';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
-function App() {
+const App=()=> {
+  const [mode,setMode] =useState('light');
+  const limit = 3;
+  // const [progress,setProgress] =useState(0);
+  
+    const changeMode=()=>{
+        if(mode==='light')
+        {
+            setMode('dark');
+            document.body.style.background = '#2a2f32';
+        }
+        else{
+
+            setMode('light');
+            document.body.style.background = 'linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5)';
+        }
+    }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+    <div>
+    <Router>
+    <NavBar mode={mode} changeMode={changeMode} />
+        <Switch>
+        <Route exact path="/"><BlogPosts mode={mode} limit={limit}/></Route> 
+           </Switch>
+        </Router>
     </div>
+  </>
   );
 }
 
